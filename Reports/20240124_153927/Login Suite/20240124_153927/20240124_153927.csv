@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Suite,Chrome 120.0.0.0,,,24-01-2024 15:39:32,24-01-2024 15:39:58,"26,433s",FAILED
+,,,,,,,
+Test Cases/Login/Login Fail,Chrome 120.0.0.0,,,24-01-2024 15:39:53,24-01-2024 15:39:58,"5,468s",FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,24-01-2024 15:39:53,24-01-2024 15:39:54,"1,068s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,24-01-2024 15:39:54,24-01-2024 15:39:57,"2,703s",PASSED
+"click(findTestObject(""Object Repository/Login page/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,24-01-2024 15:39:57,24-01-2024 15:39:57,"0,549s",PASSED
+"setText(findTestObject(""Object Repository/Login page/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,24-01-2024 15:39:57,24-01-2024 15:39:57,"0,155s",PASSED
+"click(findTestObject(""Object Repository/Login page/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,24-01-2024 15:39:57,24-01-2024 15:39:58,"0,827s",PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 120.0.0.0,,,24-01-2024 15:39:58,24-01-2024 15:39:58,"0,148s",FAILED
